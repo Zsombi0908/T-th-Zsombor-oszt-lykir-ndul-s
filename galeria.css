@@ -44,5 +44,6 @@ HTML, BODY {
   h2{
     margin: auto;
     text-align: center;
+    font-weight: bold;
   }
   
