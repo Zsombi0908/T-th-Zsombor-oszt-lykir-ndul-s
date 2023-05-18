@@ -1,11 +1,30 @@
-BODY {
-    overflow: hidden;
-    background-color: #222;
-    background-image: 
-      linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
-      linear-gradient(#222, #000);
-    background-size: .75em 100%, 100% 100%;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-  }
+img{
+  width: 500px;
+  margin: auto;
+}
+table{
+  margin: auto;
+  overflow: hidden;
+  background-color: #222;
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
+    linear-gradient(#222, #000);
+  background-size: .75em 100%, 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+td{
+  padding: 40px;
+  color: white;
+  margin: auto;
+
+}
+
+#ételek{
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: bold;
+  margin: auto;
+}

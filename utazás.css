@@ -8,4 +8,17 @@ BODY {
     background-attachment: fixed;
     display: flex;
     align-items: center;
+    float: inline-end;
+  }
+  table{
+    margin: auto;
+    overflow: hidden;
+    background-color: #222;
+    background-image: 
+      linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
+      linear-gradient(#222, #000);
+    background-size: .75em 100%, 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;  
   }
