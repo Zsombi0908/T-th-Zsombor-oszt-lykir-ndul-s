@@ -2,21 +2,16 @@ img{
   width: 500px;
   margin: auto;
 }
-table{
-  margin: auto;
-  overflow: hidden;
-  background-color: #222;
-  background-image: 
-    linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
-    linear-gradient(#222, #000);
-  background-size: .75em 100%, 100% 100%;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
+body{
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+  background-color: bisque;
 }
 td{
   padding: 40px;
-  color: white;
+  color: rgb(14, 13, 13);
   margin: auto;
 
 }
@@ -27,4 +22,13 @@ td{
   padding: 10px;
   font-weight: bold;
   margin: auto;
+}
+table{
+margin: auto;
+text-align: center;
+}
+h2{
+  text-align: center;
+  margin: auto;
+
 }
