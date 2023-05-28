@@ -1,14 +1,10 @@
 BODY {
-  height: 100%;
-  font-size: 16px;
-  line-height: 1.5;
   font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
   background-color: bisque;
+  text-align: center;
   }
   table{
     margin: auto;
-    overflow: hidden;
-    background-color: #222;
     background-image: 
       linear-gradient(to right, rgba(255,255,255,.025) 10%, transparent 0),
       linear-gradient(#222, #000);
@@ -17,3 +13,22 @@ BODY {
     display: flex;
     align-items: center;  
   }
+  .indul{
+    padding: 20px;
+  }
+  .erkezes{
+    padding: 20px;
+  }
+  .indulashaza, .indulashaza2, .indulashaza3{
+    padding: 25px;
+  }
+h1{
+  padding: 15px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+img{
+  height: 500px;
+  padding: 20px;
+}
